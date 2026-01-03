@@ -83,5 +83,15 @@ With a publicly reachable PostgreSQL instance (cloud-hosted or verified tunnel),
 ## Notes
 This assignment demonstrates end-to-end pipeline configuration, logical replication setup, and Snowflake integration using Hevo.
 
+## Screenshots
+
+Validation screenshots are available in the `screenshots/` directory:
+
+1. Docker PostgreSQL container running
+2. Logical replication publication created
+3. Replication slot created
+4. Hevo Snowflake destination configuration success
+5. Hevo PostgreSQL source connectivity limitation
+6. ngrok TCP tunnel restriction (optional)
 
 
