@@ -1,0 +1,6 @@
+docker run --name hevo_pg \
+  -e POSTGRES_USER=hevo \
+  -e POSTGRES_PASSWORD=hevo_pass \
+  -e POSTGRES_DB=hevo_db \
+  -p 5432:5432 \
+  -d postgres:15
